@@ -1,0 +1,19 @@
+{
+  "name": "easykanji",
+  "version": "1.0.0",
+  "description": "Learn kanji through the map of what they're made of — stroke animation, handwriting practice, SRS. Static PWA.",
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "author": "Bashar Kellawi <BasharKellawi@outlook.com> (https://kellawi.com)",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kellawi/EasyKanji.git"
+  },
+  "homepage": "https://kellawi.github.io/EasyKanji/"
+}

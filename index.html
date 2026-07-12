@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EasyKanji — Kanji, connected</title>
+  <meta name="description" content="Learn 2,383 Japanese kanji through the map of what they're made of: animated stroke order, handwriting practice with real checking, readings, example words, and built-in spaced repetition. Free and open source.">
+  <meta name="theme-color" content="#f2f5f8">
+  <meta property="og:title" content="EasyKanji — Kanji, connected">
+  <meta property="og:description" content="Every kanji is built from ones you already know. Follow the map, write every stroke, remember for good.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Klee+One:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="data/kanji.json" as="fetch" crossorigin>
+</head>
+<body>
+  <header class="top"></header>
+  <main id="view" aria-live="polite"></main>
+  <div id="toast" role="status"></div>
+  <noscript>
+    <p style="max-width:560px;margin:60px auto;text-align:center;font-family:system-ui">
+      EasyKanji is an interactive kanji map — it needs JavaScript to draw strokes, search, and track your reviews. Please enable it and reload.
+    </p>
+  </noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
