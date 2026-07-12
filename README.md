@@ -1,6 +1,6 @@
 # EasyKanji — Kanji, connected
 
-**Live app:** https://kellawi.github.io/EasyKanji/ *(enable GitHub Pages → Source: “GitHub Actions” after first push)*
+**Live app:** https://kellawi.github.io/EasyKanji/ 
 
 Most courses hand you kanji in frequency order, so an 18-stroke character can land in week two.
 EasyKanji orders and displays all **2,383 kanji** (full jōyō set + JLPT lists) by **what they're made of**:
